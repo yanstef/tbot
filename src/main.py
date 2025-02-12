@@ -12,6 +12,7 @@ load_dotenv(dotenv_path)
 # test
 
 
+# Test2 pour vérification du job
 def main():
     """
     Handles the initial launch of the program (entry point).
