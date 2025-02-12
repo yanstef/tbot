@@ -11,13 +11,13 @@ install:
 
 build:
 	@echo "Building the project..."
-	docker build --no-cache -t hanifsossou125/zer_bot:latest .
+	docker build --no-cache -t ysoussou/yanstef_bot:latest .
 
 make deploy:
 	@echo "Deploying the project..." 
 	chmod +x deploy.sh
 	./deploy.sh
-	docker run -d -p 8002:80 hanifsossou125/zer_bot
+	docker run -d -p 8093:80 ysoussou/yanstef_bot
 
 serve:
 	@echo "Starting development server..."
